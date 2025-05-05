@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Men's Formal Shirt",
+    "category": "men",
+    "price": 1299,
+    "description": "A classic formal shirt made from premium cotton with a tailored fit. Perfect for office wear or formal occasions.",
+    "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22",
+    "featured": true,
+    "tag": "Bestseller",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "colors": ["White", "Blue", "Black"],
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Women's Casual Dress",
+    "category": "women",
+    "price": 1499,
+    "description": "A stylish and comfortable casual dress perfect for day outings or casual gatherings. Made from soft and breathable fabric.",
+    "image": "https://images.unsplash.com/photo-1581044777550-4cfa60707c03",
+    "featured": true,
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Red", "Blue", "Black"],
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Kids' Party Wear",
+    "category": "kids",
+    "price": 999,
+    "description": "Adorable party wear for kids that combines comfort with style. Perfect for special occasions and celebrations.",
+    "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8",
+    "featured": true,
+    "tag": "New Arrival",
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y"],
+    "colors": ["Pink", "Blue", "Yellow"],
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Elder's Comfortable Kurta",
+    "category": "elders",
+    "price": 1199,
+    "description": "A comfortable and elegant kurta designed specifically for elder comfort. Made from soft cotton with a relaxed fit.",
+    "image": "https://images.unsplash.com/photo-1584940121057-90e9151fa7c1",
+    "featured": true,
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["White", "Beige", "Light Blue"],
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "name": "Men's Casual T-Shirt",
+    "category": "men",
+    "price": 699,
+    "description": "A comfortable casual t-shirt made from 100% cotton. Perfect for everyday wear with jeans or shorts.",
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Black", "Grey", "Navy"],
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Women's Elegant Saree",
+    "category": "women",
+    "price": 2499,
+    "description": "A beautiful and elegant saree for special occasions. Made from premium fabric with intricate design work.",
+    "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b",
+    "tag": "Premium",
+    "sizes": ["Free Size"],
+    "colors": ["Red", "Green", "Blue", "Pink"],
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Kids' School Uniform",
+    "category": "kids",
+    "price": 899,
+    "description": "Durable and comfortable school uniform made from quality materials. Designed to withstand daily wear and tear.",
+    "image": "https://images.unsplash.com/photo-1621452773781-0f992fd1f5cb",
+    "sizes": ["4-5Y", "6-7Y", "8-9Y", "10-11Y", "12-13Y"],
+    "colors": ["Navy", "White"],
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "name": "Elder's Warm Sweater",
+    "category": "elders",
+    "price": 1399,
+    "description": "A warm and cozy sweater perfect for elders during the winter season. Made from soft wool blend for maximum comfort.",
+    "image": "https://images.unsplash.com/photo-1702661159134-2e8d4dcf0231",
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["Beige", "Brown", "Grey"],
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Men's Designer Jeans",
+    "category": "men",
+    "price": 1799,
+    "description": "Stylish designer jeans with perfect fit and durability. Made from high-quality denim for comfort and style.",
+    "image": "https://images.unsplash.com/photo-1623446713256-599eecb668ac",
+    "tag": "Hot",
+    "sizes": ["30", "32", "34", "36", "38"],
+    "colors": ["Blue", "Black", "Grey"],
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Women's Office Wear",
+    "category": "women",
+    "price": 1899,
+    "description": "Professional office wear for women that combines style with comfort. Perfect for the modern working woman.",
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Black", "Navy", "Grey"],
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Kids' Winter Jacket",
+    "category": "kids",
+    "price": 1299,
+    "description": "Warm and stylish winter jacket for kids with waterproof exterior and cozy lining. Perfect for cold weather.",
+    "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4",
+    "sizes": ["2-3Y", "4-5Y", "6-7Y", "8-9Y", "10-11Y"],
+    "colors": ["Red", "Blue", "Yellow"],
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Elder's Comfortable Shoes",
+    "category": "elders",
+    "price": 1599,
+    "description": "Specially designed comfortable shoes for elders with orthopedic support and non-slip soles.",
+    "image": "https://images.unsplash.com/photo-1588967743669-7debdb1add9c",
+    "sizes": ["7", "8", "9", "10", "11"],
+    "colors": ["Black", "Brown", "Navy"],
+    "inStock": true
+  }
+]

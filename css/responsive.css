@@ -1,0 +1,226 @@
+/* 
+ * Responsive Stylesheet for Clothing Boutique Website
+ * Author: Developer
+ * Version: 1.0
+ */
+
+/* ======= LARGE SCREENS (1200px and below) ======= */
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ======= MEDIUM SCREENS (992px and below) ======= */
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    
+    .feature-box {
+        padding: 20px;
+    }
+    
+    .features .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .showcase-container,
+    .about-content,
+    .highlight-container,
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .showcase-image {
+        order: -1;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    
+    .timeline-container::after {
+        left: 31px;
+    }
+    
+    .timeline-dot {
+        left: 22px;
+        right: auto;
+    }
+    
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: 22px;
+    }
+    
+    .products-section .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-filters {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .contact-info-boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-details {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======= SMALL SCREENS (768px and below) ======= */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .nav-links {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 20px 0;
+    }
+    
+    .nav-links.active {
+        left: 0;
+    }
+    
+    .nav-links li {
+        margin: 15px 0;
+    }
+    
+    .header-top .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .hero {
+        height: 60vh;
+    }
+    
+    .hero h2 {
+        font-size: 36px;
+    }
+    
+    .hero h3 {
+        font-size: 20px;
+    }
+    
+    .feature-box {
+        grid-template-columns: 1fr;
+    }
+    
+    .category-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-container,
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .product-filters {
+        grid-template-columns: 1fr;
+    }
+    
+    .team-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social-cta {
+        flex-direction: column;
+    }
+    
+    .contact-info-boxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======= EXTRA SMALL SCREENS (576px and below) ======= */
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .hero h2 {
+        font-size: 30px;
+    }
+    
+    .features .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .day-hours {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+/* ======= MOBILE MENU ANIMATION ======= */
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
